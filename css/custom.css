@@ -1,0 +1,29 @@
+/* Home menu css */
+
+.sidenav {
+    background-color: #6F6CDE;
+}
+
+button {
+    background-color: #4D4B9F;
+    font-family: 'Gentium Book Plus', serif;
+    color: aliceblue;
+}
+
+.navbar-expand-lg {
+    background-color: #4D4B9F;
+    list-style: none;
+    color: aliceblue;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+/*  Guide css */
+.node_modules {
+    background-color: #FFF1DF;
+}
+
+
+/* Sources css */
+.node_modules {
+    background-color: #FFF1DF;
+}
