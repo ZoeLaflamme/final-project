@@ -26,20 +26,28 @@ button {
 
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background-color: #4D4B9F;
     align-items: center;
     margin: 0 auto;
     padding: 30px;
-    color: aliceblue;
     font-family: 'Gentium Book Plus', serif;
-    font-size: 30px;
+    font-size: 50px;
+    text-decoration: none;
 }
 
-.logo a {
-width: 200%;
+footer {
+    background-color: #4D4B9F;
+    color: aliceblue;
+    font-family:'Gentium Book Plus', serif;
+    text-align: center;
+    font-size: large;
 }
 
+.nav-links li a:hover {
+    text-decoration: underline;
+  }
 /*  Guide css */
 
 
