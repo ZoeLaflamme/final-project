@@ -50,8 +50,7 @@ footer {
   }
 /*  Guide css */
 
-
-.node_modules {
+body {
     background-color: #FFF1DF;
 }
 
@@ -70,6 +69,38 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 }
+
+.dropdown-menu {
+    display: flexbox;
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .image-box {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  .image-text {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
 
 /* Sources css */
 .node_modules {
