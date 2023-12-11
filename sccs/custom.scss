@@ -5,5 +5,124 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.sidenav {
+    background-color: #6F6CDE;
+}
 
+.hero-image {
+    background-image: url(/Images/Banner\ Image.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+button {
+    background-color: #4D4B9F;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 150%;
+    text-align: center;
+    color: aliceblue;
+    width: 200px;
+    height: 80px;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4D4B9F;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #4D4B9F;
+    color: aliceblue;
+    font-family:'Gentium Book Plus', serif;
+    text-align: center;
+    font-size: large;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+  }
+/*  Guide css */
+
+body {
+    background-color: #FFF1DF;
+}
+
+.Guide-Images {
+    width: 138px;
+    height: 136px;   
+}
+
+.text {
+color: #000;
+text-align: center;
+font-family: Gentium Book Basic;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.dropdown-menu {
+    display: flexbox;
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .image-box {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .image-text {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+
+/* Sources css */
+.node_modules {
+    background-color: #FFF1DF;
+}
+
+.w3-sidebar {
+    background: var(--side-bar, rgba(77, 75, 159, 0.50));
+    width: 165px;
+    height: 73px;
+    color: #000;
+    font-family: Gentium Book Basic;
+    font-size: 50px;
+    font-style: none;
+    font-weight: none;
+    line-height: none;
+    padding-left: 20px;
+} 
 // Then add additional custom code here
